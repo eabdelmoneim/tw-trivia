@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './index.css';
 
 const TriviaBoard = () => {
@@ -71,6 +71,10 @@ const TriviaBoard = () => {
 };
 
 function App() {
+  useEffect(() => {
+    document.title = "Teammate Trivia Game";
+  }, []);
+
   return (
     <div className="App">
       <TriviaBoard />
