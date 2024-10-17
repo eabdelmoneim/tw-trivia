@@ -47,7 +47,7 @@ const TriviaBoard = () => {
 
   return (
     <div className="max-w-4xl mx-auto bg-white p-6 rounded-xl shadow-md">
-      <h2 className="text-3xl font-bold mb-6 text-center">Thirdweb Team Trivia</h2>
+      <h2 className="text-3xl font-bold mb-6 text-center">How well do you know your teammates?</h2>
       <div className="grid grid-cols-4 gap-2">
         {allItems.map((item, index) => (
           <div 
